@@ -107,7 +107,7 @@ npm i rollup --save-dev #如果安装成功可手动在目录执行`npx rollup -
 touch rollup.config.js
 ```
 
-- 安装所需插件（举例`@rollup/plugin-babel`）
+- 安装所需插件（举例`@rollup/plugin-babel`,其余插件参考[官方文档](https://github.com/rollup/plugins)）
 ```shell
 npm install --save-dev @rollup/plugin-babel
 ```
