@@ -1,0 +1,27 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "rollup -c --watch --environment NODE_ENV:development",
+        "build": "rimraf dist && rollup -c --environment NODE_ENV:production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.13.10",
+        "@babel/plugin-transform-runtime": "^7.13.10",
+        "@babel/preset-env": "^7.13.12",
+        "@rollup/plugin-babel": "^5.3.0",
+        "@rollup/plugin-commonjs": "^17.1.0",
+        "@rollup/plugin-node-resolve": "^11.2.0",
+        "rimraf": "^3.0.2",
+        "rollup": "^2.42.3"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.13.10",
+        "@babel/runtime-corejs3": "^7.13.10"
+    }
+}
