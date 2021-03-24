@@ -1,3 +1,8 @@
+简述插件封装
+----
+
+
+
 #### 在此之前，我们先来认识一下，生成的插件包的格式类型有哪些
 * `amd` – Asynchronous Module Definition, used with module loaders like RequireJS
 <!-- > AMD是`RequireJS`在推广过程中对模块定义的规范化产出,CMD是`SeaJS`在推广过程中对模块定义的规范化产出,CMD推崇依赖就近，AMD推崇依赖前置; -->
