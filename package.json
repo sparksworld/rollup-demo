@@ -1,14 +1,16 @@
 {
-    "name": "test",
+    "name": "xxx_plugin",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "xxx_plugin",
+    "main": "dist/xxx_plugin.umd.js",
+    "module": "dist/xxx_plugin.es.js",
+    "browser": "dist/xxx_plugin.iife.js",
     "scripts": {
         "watch": "rollup -c --watch --environment NODE_ENV:development",
         "build": "rimraf dist && rollup -c --environment NODE_ENV:production"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["spark", "xxx_plugin"],
+    "author": "spark",
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.13.10",
